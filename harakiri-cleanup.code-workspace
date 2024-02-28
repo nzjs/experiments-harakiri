@@ -1,0 +1,36 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+
+        "[python]": {
+            "editor.formatOnPaste": false,
+            "editor.formatOnSaveMode": "file",
+            "editor.formatOnSave": true,
+            "editor.codeActionsOnSave": {
+                "source.fixAll.ruff": "explicit",
+                "source.organizeImports.ruff": "explicit"
+            },
+            "editor.defaultFormatter": "ms-python.black-formatter"
+        },
+        "ruff.lint.args": ["--ignore=E501"],
+        "editor.stickyScroll.enabled": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "never"
+        },
+        "ruff.organizeImports": true,
+        "python.analysis.logLevel": "Information",
+        "python.terminal.activateEnvInCurrentTerminal": false,
+        "python.terminal.activateEnvironment": false,
+        "python.analysis.useLibraryCodeForTypes": true,
+        "python.analysis.completeFunctionParens": true,
+        "python.analysis.autoFormatStrings": true,
+        "python.analysis.gotoDefinitionInStringLiteral": true,
+        "python.analysis.enablePytestSupport": true,
+        "python.analysis.persistAllIndices": true,
+        "python.analysis.typeCheckingMode": "off",
+    }
+}

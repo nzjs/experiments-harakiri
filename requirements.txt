@@ -1,0 +1,5 @@
+uwsgi==2.0.24
+django==4.2
+ruff==0.1
+ipython==8.20
+mypy==1.8
