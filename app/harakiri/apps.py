@@ -10,5 +10,5 @@ class HarakiriConfig(AppConfig):
     name = "harakiri"
 
     def ready(self) -> None:
-        signal.signal(signal.SIGSYS, HarakiriLoggerMiddleware.handle_signal)
+        signal.signal(signal.SIGHUP, HarakiriLoggerMiddleware.handle_signal)
         return super().ready()
